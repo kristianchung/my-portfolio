@@ -1,0 +1,17 @@
+@font-face{
+    font-family: titreFont;
+    src: url(../font/stargaze_regular-webfont.woff);
+}
+
+.accueil .titre{
+    font-family: titreFont;
+    color: white;
+    letter-spacing: 0.1vw;
+    font-size: 2vw;
+    margin-left: 20vh;
+    padding-top: 25vh;
+}
+
+.prenom{
+    color: #df22a2;
+}

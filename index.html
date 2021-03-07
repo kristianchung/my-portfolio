@@ -10,8 +10,9 @@
     <link id="style" rel="stylesheet" href="css/header.css">
     <link id="style" rel="stylesheet" href="css/accueil.css">
     <link id="style" rel="stylesheet" href="css/description.css">
+    <link id="style" rel="stylesheet" href="css/projets.css">
     <link id="style" rel="stylesheet" href="css/footer.css">
-    <link id="style" rel="stylesheet" href="css/projet.css">
+   
 
     <!-- CAROUSSEL -->
     <!-- #1 : Lier vers fichier JAVASCRIPT jssor (source) -->
@@ -28,228 +29,65 @@
 </head>
 <body>
     <div id="global">
-            <input type="checkbox" id="chkBoutonBurger" />
-            <div id="logo_boutton"> <a href="#header"> <img src="img/four_logo.png" alt="logo"> </a></div>
-            <label id="burger" for="chkBoutonBurger" class="boutonBurger"></label>
+        <input type="checkbox" id="chkBoutonBurger" />
+        <label id="burger" for="chkBoutonBurger" class="boutonBurger"></label>
+
         <div id="header">
-            
+            <nav id="nav" class="menu">
+                <a id="histoireNav" href="#accueil">Accueil</a>
+                <a id="histoireNav" href="#description">À propos</a>
+                <a id="menueNav" href="#menu">Projet</a>
+                <a id="footerNav" href="#footer">Contact</a>
+            </nav>
 
-                
-                <nav id="nav" class="menu">
-
-
-                        <a id="histoireNav" href="#histoire">Histoire</a>
-                        <a id="menueNav" href="#menu">Menu</a>
-                        <a id="gallerieNav" href="#gallerie">Gallerie</a>
-
-
-                    <a id="logo" href="#header"><img src="img/four_logo.png" alt="logo"></a>  
-  
-                        <a id="resNav" href="#reservation">Réservation</a>
-                        <a id="carteNav" href="#map">Carte</a>
-                        <a id="footerNav" href="#footer">Informations</a>
-
-                </nav>
-    
-                <div id="res_maint">
-                   <a href="#reservation"><h3> RÉSERVER MAINTENANT !</h3></a> 
+            <div class="accueil">
+                <div class="titre">
+                    <h1><span class="prenom">Kristian</span> Chung</h1>
+                    <h3>Intégrateur multimédia</h3>
                 </div>
                 
+            </div>
         </div>
 
-        <div id="histoire">
-        
-            <h1>L'ESPRIT DE FAMILLE</h1>
-
-                <p>l'histoire d'amour du premier Vieux Four de Laval a fait des petits, en 1989 sa fille Linda Managò établit son restaurant Le Vieux Four Managò à Saint-Sauveur-des-Monts. Les autres membres de la famille, piqués de la même passion pour la cuisine italienne, ont transporté le concept en un autre endroit. Ainsi, a vu le jour le restaurant de Kirkland. La famiglia s'est ainsi agrandie!</p>
-
-            <h1>C'EST EN 1983 QUE LE RÊVE DEVINT RÉALITÉ</h1>
-
-                <p>le restaurant Le Vieux Four de Laval, situé dans le petit village de St-Vincent-de-Paul accueillait chaleureusement une clientèle qui lui est resté fidèle depuis 1983.</p>
-                <p>m.Managò est originaire de la province italienne de Reggio Calabre, plus précisément de la petite ville de Palmi. C'est de là que vient son goût pour la pizza cuite au four à bois, pour les produits frais et naturels, pour la cuisine colorée, savoureuse et raffinée qu'il nous offre au restaurant Le Vieux Four.</p>
-
-            <h1>CE RESTAURANT DE CUISINE ITALIENNE EST UNE RÉALISATION FAMILIALE</h1>
-
-                <p>m.Managò a toujours été accompagné et épaulé par son épouse et leurs quatre enfants…tous y ont mis du coeur; les espérances de la famille étaient grandes. Le succès instantané remporté par Le Vieux Four a dépassé de loin toutes les attentes. Ce restaurant est aujourd'hui une institution; il est recommandé pour la qualité de sa nourriture et l'accueil qu'on y reçoit.</p>
-                <p>c'est avec fierté et détermination que depuis 1986, linda Managò assure la relève de cette belle aventure à Saint-Sauveur et souhaite que cet établissement demeure encore très longtemps !</p>
-        
-        </div>
-
-
-        <div id="menu">
-
-            <h1>Menu</h1>
-
-            <ul>
-                <li id="salade_ul">Salade</li>
-                <li id="entree_ul">Entrées</li>
-                <li id="pizza_ul">Pizza</li>
-                <li id="pate_ul">Pâtes</li>
-                <li id="poulet_ul">Poulet</li>
-                <li id="steak_ul">Steak</li>
-                <li id="veau_ul">Veau</li>
-                <li id="poisson_ul">Poisson</li>
-                <li id="enfant_ul">Menu Enfant</li>
-            </ul>
-
-            <img id="menu_img" src="img/salade.png" alt="plat">
-
-            <ol id="salade">
-                <li class="item">césar</li>
-                <li class="item">verte</li>
-                <li class="item">vinaigrette italienne</li>
-                <li class="item">du chef</li>
-                <li class="item">tomates sucrées</li>
-                <li class="item">maison</li>
-                <li class="item">vinaigrette crémeuse à l'ail</li>
-                <li class="item">folle au chèvre chaud</li>
-                <li class="item">frisée, huile, vinaigre balsamique</li>
-            </ol>
-
-            <ol id="entree">
-                    <li class="item">potage du jour </li>
-                    <li class="item">fondue parmesan </li>
-                    <li class="item">stracciatella alla Romana</li>
-                    <li class="item">soupe à l’oignon gratinée</li>
-                    <li class="item">coeurs d’artichauts </li>
-                    <li class="item">zucchinis frits </li>
-                    <li class="item">escargots au beurre à l’ail</li>
-                    <li class="item">cocktail de crevettes</li>
-                    <li class="item">calmars frits</li>
-                </ol>
-
-                <ol id="pizza">
-                        <li class="item">napoletana </li>
-                        <li class="item">canitello</li>
-                        <li class="item">québécoise</li>
-                        <li class="item">deliziosa</li>
-                        <li class="item">bagnara</li>
-                        <li class="item">margarita</li>
-                        <li class="item">marinella</li>
-                        <li class="item">lavalloise</li>
-                        <li class="item">gambare</li>
-                    </ol>
-
-                    <ol id="pate">
-                            <li class="item">pennine arrabiata</li>
-                            <li class="item">pennine romanoff</li>
-                            <li class="item">spaghetti carbonara</li>
-                            <li class="item">fettucini gigi</li>
-                            <li class="item">linguini vongole</li>
-                            <li class="item">linguini frutti di mare</li>
-                            <li class="item">spaghetti pesto</li>
-                            <li class="item">capellini d’angelo aux tomates séchées </li>
-                            <li class="item">CAVATELLI</li>
-                        </ol>
-
-                        <ol id="poulet">
-                                <li class="item">poulet à la milanaise</li>
-                                <li class="item">poulet Paillarde</li>
-                                <li class="item">grillé avec épices</li>
-                                <li class="item">poulet Parmigiana</li>
-                                <li class="item">sauce tomate et fromage gratiné</li>
-                                <li class="item">poulet à la Florentine </li>
-                                <li class="item">crème, épinards et champignons</li>
-                            </ol>
-
-                            <ol id="steak">
-                                    <li class="item">Steak au poivre 3AAA angus</li>
-                                    <li class="item">Steak Maître d’hôtel 3AAA angus</li>
-                                    <li class="item">noisette de beurre</li>
-                                    <li class="item">Filet mignon 3AAA angus</li>
-                                </ol>
-
-                                <ol id="veau">
-                                        <li class="item">scallopini poivre rose</li>
-                                        <li class="item">scallopini pizzaïola</li>
-                                        <li class="item">scallopini Dijonnaise</li>
-                                        <li class="item">scallopini Marsala</li>
-                                        <li class="item">scallopiniVino Bianco</li>
-                                        <li class="item">scallopini Limone</li>
-                                        <li class="item">scallopini alla sorrentina</li>
-                                        <li class="item">scallopini bocconcini</li>
-                                        <li class="item">coteletta parmigiana</li>
-                                    </ol>
-
-                                    <ol id="poisson">
-                                            <li class="item">choix du chef</li>
-                                            <li class="item">moules Marinara et frites</li>
-                                        </ol>
-
-                                        <ol id="enfant">
-                                                <li class="item">spaghetti bolognese</li>
-                                                <li class="item">pizza bambino</li>
-                                            </ol>
-        </div>
-
-
-        <div id="gallerie">
+        <div class="description">
+            <h1>À propos</h1>
+                <p>Bonjour, je suis Kristian, étudiant en multimédia. Durant mon parcours scolaire, j'ai appris à explorer toutes sortes de 
+                    technologies en lien avec le multimédia afin de développer mes propres compétences. Je suis fortement motivé pour rejoindre 
+                    une équipe qui va me permettre de gagner de l'expérience dans le milieu de travail. Mes habiletés sont plus orientées vers le 
+                    côté artistique. J'adore faire du design graphique, de la conception numérique et de la modélisation 3D. J'espère donc pouvoir démontrer mes 
+                    compétences et valeurs acquises dans le milieu professionnel. Mes passe-temps sont le dessin, la photographie et les jeux vidéo.
+                </p>
             
-           
+                <h1>Compétence</h1>
+                    <p><b>Programmation</b></p>
+                        <p>HTML/CSS, Javascript, C#, PHP</p>
+                    <p><b>Création</b></p>
+                        <p>Photoshop, Illustrator, XD, Premiere Pro, After effects, Audition, Unity, Maya</p>
+            </div>
+        </div>
 
+        <div id="projets">
             <div id="carrousel">
-                   
-                
-                <h1> Gallerie Photo </h1>
-
-
+                <h1>Mes projets</h1>
                 <div id="jssor_1" >
                         <!-- LOADING SCREEN -->
                         <div data-u="loading" class="jssorl-009-spin" >
                             <img src="img/svg/loading/static-svg/spin.svg" />
                         </div>
             
-                        <!-- SLIDES / CARROUSEL -->
+                        <!-- Images projets -->
                         <div id="slides" data-u="slides" >
-                            <div>
-                                <img data-u="image" src="img/manago1.jpg" />
-                            </div>
-                            
-                            <div>
-                                    <img data-u="image" src="img/manago2.jpg" />
-                            </div>
+                            <div><img data-u="image" src="img/projets/chronoshift.jpg" /></div>
+                            <div><img data-u="image" src="img/projets/Chung_Kristian_tp2_01.jpg" /></div>
+                            <div><img data-u="image" src="img/projets/LeBoucanRevamp.jpg" /></div>
+                            <div><img data-u="image" src="img/manago4.jpg" /></div>
+                            <div><img data-u="image" src="img/manago5.jpg" /></div>
+                            <div><img data-u="image" src="img/manago6.jpg" /></div>
+                            <div><img data-u="image" src="img/manago7.jpg" /></div>
+                            <div><img data-u="image" src="img/manago8.jpg" /></div>
+                            <div><img data-u="image" src="img/manago9.jpg" /></div>
+                        </div>
 
-                            <div>
-                                    <img data-u="image" src="img/manago3.jpg" />
-                            </div>
-
-                            <div>
-                                    <img data-u="image" src="img/manago4.jpg" />
-                            </div>
-
-                            <div>
-                                    <img data-u="image" src="img/manago5.jpg" />
-                            </div>
-                            
-                            <div>
-                                    <img data-u="image" src="img/manago6.jpg" />
-                            </div>
-
-                            <div>
-                                    <img data-u="image" src="img/manago7.jpg" />
-                            </div>
-
-                            <div>
-                                    <img data-u="image" src="img/manago8.jpg" />
-                            </div>
-
-                            <div>
-                                    <img data-u="image" src="img/manago9.jpg" />
-                            </div>
-
-                            <div>
-                                    <img data-u="image" src="img/manago10.jpg" />
-                            </div>
-
-                            <div>
-                                    <img data-u="image" src="img/manago11.jpg" />
-                            </div>
-                            
-
-                        </div> <!-- fin des diapos -->
-                        
-            
-            
                         <!-- Bullet Navigator / Points -->
                         <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
                             <div data-u="prototype" class="i" style="width:16px;height:16px;">
@@ -276,32 +114,15 @@
             </div>
 
         <div id="footer">
-
-          <ul>
-            <li>LUNDI : 11:30a.m. – 9p.m.</li>
-            <li>MARDI : 11:30a.m. – 9p.m.</li>
-            <li>MERCREDI : 11:30a.m. – 9p.m.</li>
-            <li>JEUDI : 11:30a.m. – 9p.m.</li>
-            <li>VENDREDI : 12:00p.m - 10p.m. </li>
-            <li>SAMEDI : 12:00p.m - 10p.m. </li>
-            <li>DIMANCHE : 12:00p.m - 10p.m. </li>
-          </ul>
-
-          <ol>
-            <li>(450) 227-6060</li>
-            <li>252 Rue Principale,</li>
-            <li>Saint-Sauveur,</li>
-            <li>QC J0R 1R0</li>
-          </ol>
-
-          <div id="droit">DROIT RÉSERVÉ MATHIEU GAUDREAU TP 5 DESIGN D’INTERFACES</div>
-
+            <ul>
+                <li>Linkedin - Kristian Chung</li>
+                <li>Behance - Kristian Chung</li>
+                <li>Courriel - kristian_chung1@hotmail.com</li>
+            </ul>
+          <div id="droit">Kristian Chung - Portfolio 2021</div>
         </div>
-
     </div>
-        
-       <script src="js/function.js"></script>
-       <script src="js/initialize.js"></script>
+
        <script type="text/javascript">jssor_1_slider_init();</script>
   </body>
   </html>

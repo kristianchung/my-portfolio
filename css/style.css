@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face{
+    font-family: titreFont;
+    src: url(../font/stargaze_regular-webfont.woff);
+}
 
 /*Style global*/
 html{
@@ -6,14 +10,13 @@ html{
 }
 
 body{
-    background-color: white;
+    background-color: #020a1c;
 }
 
 #global{
-background-color: black;
-
-    margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
+background-color: #020a1c;
+margin: 0 auto;
+font-family: 'Raleway', sans-serif;
 }
 
 
@@ -46,98 +49,6 @@ img{
     color:#9e0d0d;
     transition:.3s ease;
   }
-
-
-
-
-/* --------------------MENU------------------- */
-
-#menu{
-    background-color: white;
-    display: grid;
-    grid-template-areas:"cell1 cell1 cell1" 
-                        "cell2 cell3 cell4";
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#menu ul li:hover{
-    color : #800000;
-    text-decoration: underline;
-    text-decoration-color: #800000;
-
-}
-
-#menu h1{
-text-align: center;
-width: 100%;
-margin: 0;
-font-size: 4em;
-grid-area: cell1;
-}
-
-#menu ul{
-    cursor: pointer;
-    list-style-type: none;
-    padding-left: 8%;
-    font-size: 2em;
-    text-transform: uppercase;
-    display: inline-block;
-    grid-area: cell2;
-}
-
-#menu ol{
-padding-right: 8%;
-list-style-type: none;
-text-align: right;
-float: right;
-font-size: 2em;
-text-transform: uppercase;
-grid-area: cell4;
-}
-
-
-#salade_ul{
-    color: red;
-
-}
-
-#menu li{
-    padding: 2vh 0 2vh 0;
-}
-
-#menu img{
-    transform: rotate(-15deg);
-    justify-self: center;
-    align-self: center;
-    grid-area: cell3;
-}
-
-/* --------------------GALLERIE------------------- */
-
-#gallerie{
-    height: 75vh;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10%;
-padding-bottom: 5%;
-}
-
-#carrousel{
-    width: 60vw;
-    height: 100vh;
-}
-
-#carrousel h1 {
-    margin-bottom: 5%;
-    font-size: 4em;
-    width: 100%;
-    text-align: center;
-}
-
-
-
 
 /* ================== Styles Tablettes ===============*/
 @media (min-width:521px) and (max-width:980px) {
@@ -212,118 +123,6 @@ margin-left: 40px;
 #menu_droit{
     display: block;
 }
-/* --------------------HISTOIRE------------------- */
-
-/* --------------------MENU------------------- */
-
-#menu{
-    background-color: white;
-    display: grid;
-    grid-template-areas:"cell1 cell1 cell1" 
-                        "cell2 cell2 cell2";
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-#menu ul{
-    cursor: pointer;
-    list-style-type: none;
-    padding-left: 0;
-    font-size: 2em;
-    text-transform: uppercase;
-    display:block;
-    text-align: center;
-    margin-bottom: 0;
-    grid-area: cell2;
-}
-
-#salade_ul{
-    color: black;
-}
-
-#menu img{
-    display: none;
-}
-
-#menu ul li:hover{
-    color : #800000;
-    text-decoration: underline;
-    text-decoration-color: #800000;
-
-}
-
-
-#menu ol{
-    position: absolute;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    width: 100%;
-    }
-
-#salade{
-    background-color: white;
-    display: none;
-    position: relative;
-    top: 312vh;
-    overflow: hidden;
-}
-
-
-#entree{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 322vh;
-    overflow: hidden;}
-
-#pizza{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 328vh;
-    overflow: hidden;}
-
-#pate{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 336vh;
-    overflow: hidden;}
-#poulet{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 342vh;
-    overflow: hidden;}
-#steak{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 352vh;
-    overflow: hidden;}
-#veau{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 359vh;
-    overflow: hidden;}
-#poisson{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 366vh;
-    overflow: hidden;}
-#enfant{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 373vh;
-    overflow: hidden;}
 
 /* --------------------GALLERIE------------------- */
 
@@ -350,15 +149,6 @@ margin-left: 40px;
 #footer ul{
     list-style-type: none;
     grid-area: cell1;
-    justify-self: center;
-    text-align: center;
-    align-self: center;
-    padding: 0;
-}
-
-#footer ol{
-    list-style-type: none;
-    grid-area: cell2;
     justify-self: center;
     text-align: center;
     align-self: center;
@@ -453,113 +243,6 @@ margin-left: 40px;
 }
 /* --------------------HISTOIRE------------------- */
 
-/* --------------------MENU------------------- */
-#menu{
-    background-color: white;
-    display: grid;
-    grid-template-areas:"cell1 cell1 cell1" 
-                        "cell2 cell2 cell2";
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#menu ul{
-    cursor: pointer;
-    list-style-type: none;
-    padding-left: 0;
-    font-size: 2em;
-    text-transform: uppercase;
-    display:block;
-    text-align: center;
-    grid-area: cell2;
-}
-
-#salade_ul{
-    color: black;
-}
-
-#menu img{
-    display: none;
-}
-
-#menu ul li:hover{
-    color : #800000;
-    text-decoration: underline;
-    text-decoration-color: #800000;
-
-}
-
-
-#menu ol{
-    position: absolute;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    width: 100%;
-    }
-
-#salade{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 440vh;
-    overflow: hidden;
-}
-
-
-#entree{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 447vh;
-    overflow: hidden;}
-
-#pizza{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 457vh;
-    overflow: hidden;}
-
-#pate{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 467vh;
-    overflow: hidden;}
-#poulet{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 475vh;
-    overflow: hidden;}
-#steak{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 485vh;
-    overflow: hidden;}
-#veau{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 492vh;
-    overflow: hidden;}
-#poisson{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 502vh;
-    overflow: hidden;}
-#enfant{
-    background-color: white;
-    display: none;
-    position: absolute;
-    top: 510vh;
-    overflow: hidden;}
 /* --------------------GALLERIE------------------- */
 #gallerie{
 height: 60vh;
@@ -591,15 +274,6 @@ height: 60vh;
 #footer ul{
     list-style-type: none;
     grid-area: cell1;
-    justify-self: center;
-    text-align: center;
-    align-self: center;
-    padding: 0;
-}
-
-#footer ol{
-    list-style-type: none;
-    grid-area: cell2;
     justify-self: center;
     text-align: center;
     align-self: center;

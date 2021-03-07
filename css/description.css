@@ -1,29 +1,29 @@
-#histoire{
-    background-color: white;
-    color: black;
+.description{
+    background-color: #020611;
+    color: white;
     padding-bottom: 5vh;
-    }
+    height: 100vh;
+}
     
-    #histoire h1{
-        margin: 0 0 5vh 0;
-        padding-top: 5vh;
-        font-size: 1.7em;
-        padding-left: 10vw;
-    }
+.description h1{
+    margin: 0 0 5vh 0;
+    padding-top: 8vh;
+    font-size: 2.3em;
+    padding-left: 25vh;
+}
+
+.prenom{
+    color: #df22a2;
+}
     
-    #histoire p{
-        width: 75%;
-        text-align: justify;
-        padding-left: 12vw ;
-        padding-bottom: 5vh;
-        margin: 0;
-        font-size: 1.3em;
-        line-height: 5vh;
-    }
-    
-    #histoire p::first-letter {
-        text-transform: uppercase;
-        font-size:1.3em;
-        font-weight: bold;
-        letter-spacing: 5px;
-    }
+.description p{
+    display: flex;
+    flex-direction: row;
+    width: 27%;
+    padding-left: 25vh;
+    text-align: justify;
+    padding-bottom: 5vh;
+    margin: 0;
+    font-size: 1.3em;
+    line-height: 3vh;
+}

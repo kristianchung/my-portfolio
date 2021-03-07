@@ -1,0 +1,23 @@
+#projets{
+    height: 75vh;
+    background-color:#0d0b32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-family: titreFont;
+}
+
+#carrousel{
+    width: 60vw;
+    height: 100vh;
+}
+
+#carrousel h1 {
+    margin-bottom: 5%;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
