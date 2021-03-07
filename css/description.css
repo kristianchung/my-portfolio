@@ -1,0 +1,29 @@
+#histoire{
+    background-color: white;
+    color: black;
+    padding-bottom: 5vh;
+    }
+    
+    #histoire h1{
+        margin: 0 0 5vh 0;
+        padding-top: 5vh;
+        font-size: 1.7em;
+        padding-left: 10vw;
+    }
+    
+    #histoire p{
+        width: 75%;
+        text-align: justify;
+        padding-left: 12vw ;
+        padding-bottom: 5vh;
+        margin: 0;
+        font-size: 1.3em;
+        line-height: 5vh;
+    }
+    
+    #histoire p::first-letter {
+        text-transform: uppercase;
+        font-size:1.3em;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }

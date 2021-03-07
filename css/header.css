@@ -1,0 +1,66 @@
+#header{
+    display: flex;
+    flex-flow: column nowrap  ;
+    background-image: url(../img/four1.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    }
+    
+    .menu {
+        display: grid;
+        width: 100%;
+        height: 13vh;
+        background-color: black;
+        opacity: 0.85;
+        grid-template-areas:"cell1 cell2 cell3 cell4 cell5 cell6 cell7";
+        grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+    }
+    
+    .menu img{
+    grid-area: cell4;
+    }
+    
+    .menu a{
+        color: white;
+        text-decoration: none;
+        padding : 0 2.5vw 0 2.5vw;
+        font-size: 2em;
+        display: inline-flex;
+        justify-content: center;
+        cursor: pointer;
+        align-self: center;
+    }
+    
+    #res_maint{
+        color: white;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 70vh;
+        transition: opacity 0.2s;
+    }
+    
+    #res_maint h3{
+        border: 3px solid white ;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+    #res_maint a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #logo_boutton{
+        display: none;
+    }
+    
+    #menu_gauche{
+        display: inline-flex;
+    }
+    
+    #menu_droit{
+        display: inline-flex;
+    }

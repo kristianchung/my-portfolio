@@ -1,0 +1,38 @@
+/* --------------------FOOTER------------------- */
+#footer{
+    height: 50vh;
+    color: white;
+    display: grid;
+    grid-template-areas: "cell1 cell2"
+                         "cell3 cell3"   ;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5em;
+}
+
+#footer ul{
+    list-style-type: none;
+    grid-area: cell1;
+    justify-self: center;
+    text-align: left;
+    align-self: center;
+}
+
+#footer ol{
+    list-style-type: none;
+    grid-area: cell2;
+    justify-self: center;
+    text-align: right;
+    align-self: center;
+}
+
+#footer li{
+    padding: 2px 0 2px 0;
+}
+
+#droit{
+    grid-area: cell3;
+    text-align: center;
+    font-size: 10px;
+    align-self: flex-end;
+    font-style: italic;
+}
