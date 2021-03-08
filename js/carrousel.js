@@ -3,7 +3,7 @@
 
             var jssor_1_options = {
               $AutoPlay: 1,
-              $SlideDuration: 800,
+              $SlideDuration: 1000,
               $SlideEasing: $Jease$.$OutQuint,
               $ArrowNavigatorOptions: {
                 $Class: $JssorArrowNavigator$
@@ -14,10 +14,7 @@
             };
 
             var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*#region responsive code begin*/
-
-            var MAX_WIDTH = 3000;
+            var MAX_WIDTH = 1500;
 
             function ScaleSlider() {
                 var containerElement = jssor_1_slider.$Elmt.parentNode;
@@ -35,9 +32,7 @@
             }
 
             ScaleSlider();
-
             $Jssor$.$AddEvent(window, "load", ScaleSlider);
             $Jssor$.$AddEvent(window, "resize", ScaleSlider);
             $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*#endregion responsive code end*/
         };

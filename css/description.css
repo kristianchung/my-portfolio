@@ -3,27 +3,75 @@
     color: white;
     padding-bottom: 5vh;
     height: 100vh;
+    font-family: titreFont;
 }
     
-.description h1{
+.description #aPropos h1{
     margin: 0 0 5vh 0;
     padding-top: 8vh;
     font-size: 2.3em;
-    padding-left: 25vh;
+    padding-left: 35vh;
+}
+
+.description p {
+    font-family: 'Raleway', sans-serif;
 }
 
 .prenom{
     color: #df22a2;
 }
     
-.description p{
-    display: flex;
-    flex-direction: row;
+.description #aPropos p{
+    display: block;
+    float: left;
     width: 27%;
-    padding-left: 25vh;
+    padding-left: 35vh;
     text-align: justify;
     padding-bottom: 5vh;
     margin: 0;
     font-size: 1.3em;
     line-height: 3vh;
+}
+
+.description #competence h1{
+    display: inline-block;
+    width: 27%;
+    text-align: justify;
+    margin-top: 7vh;
+    font-size: 2em;
+    line-height: 3vh;
+}
+
+.description #competence {
+    position: relative;
+    display: inline-block;
+    left: 10%;
+    top: -15vh;
+    width: 27%;
+    text-align: justify;
+    margin: 0;
+    font-size: 1.3em;
+    line-height: 3vh;
+}
+
+/* .rectangle{
+    height: 50px;
+    width: 150px;
+    background-color: #555;
+    position: relative;
+    left: 30vh;
+} */
+
+.description .download-cv a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    left: 30vh;
+    top: -10vh;
+    transition: 0.5s;
+}
+
+.description .download-cv a:hover{
+    color: #df22a2;
 }

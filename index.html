@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- lien vers fichier css -->
+    <!-- LIEN VERS FICHIERS CSS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link id="style" rel="stylesheet" href="css/style.css">
     <link id="style" rel="stylesheet" href="css/header.css">
@@ -14,81 +14,95 @@
     <link id="style" rel="stylesheet" href="css/footer.css">
    
 
-    <!-- CAROUSSEL -->
-    <!-- #1 : Lier vers fichier JAVASCRIPT jssor (source) -->
+    <!-- LIEN VERS SCRIPT DU CAROUSSEL -->
     <script type="text/javascript" src="js/jssor.slider.min.js"></script>
-
-    <!-- #2 : Lier vers CARROUSEL SLIDER javascript (full width) -->
     <script type="text/javascript" src="js/carrousel.js"></script>
-
-    <!-- #3 : Lier vers les STYLES CSS pour le carrousel -->
     <link rel="stylesheet" href="css/carrousel.css">
 
     <title>Portfolio - Kristian Chung</title>
 
 </head>
 <body>
-    <div id="global">
-        <input type="checkbox" id="chkBoutonBurger" />
-        <label id="burger" for="chkBoutonBurger" class="boutonBurger"></label>
-
+        <!-- SECTION HEADER -->
         <div id="header">
+            <!-- NAV -->
             <nav id="nav" class="menu">
-                <a id="histoireNav" href="#accueil">Accueil</a>
-                <a id="histoireNav" href="#description">À propos</a>
-                <a id="menueNav" href="#menu">Projet</a>
-                <a id="footerNav" href="#footer">Contact</a>
+                <a id="navAccueil" href="#accueil1">Accueil</a>
+                <a id="navDescription" href="#description1">À propos</a>
+                <a id="navprojet" href="#projets">Projet</a>
+                <a id="navFooter" href="#footer">Contact</a>
             </nav>
 
-            <div class="accueil">
+            <!-- PAGE ACCUEIL -->
+            <div class="accueil" id="accueil1">
                 <div class="titre">
                     <h1><span class="prenom">Kristian</span> Chung</h1>
+                    <div class="ligne"></div>
                     <h3>Intégrateur multimédia</h3>
                 </div>
-                
+                <span id="cercle"></span>
+                <span id="cercle2"></span>
+                <span id="cercle3"></span>
+
+                <div id="imgProfil1">
+                    <img src="img/projets/IMG_1226.jpg" alt="imgProfil">
+                </div>
+                <div id="imgProfil2">
+                    <img src="img/projets/IMG_1225.jpg" alt="imgProfil">
+                </div>
             </div>
         </div>
 
-        <div class="description">
-            <h1>À propos</h1>
-                <p>Bonjour, je suis Kristian, étudiant en multimédia. Durant mon parcours scolaire, j'ai appris à explorer toutes sortes de 
+        <!-- SECTION DESCRIPTION -->
+        <div class="description" id="description1">
+            <div id="aPropos">
+                <h1>À propos</h1>
+                <p>Bonjour, je suis <span class="prenom">Kristian</span>, étudiant en multimédia. Durant mon parcours scolaire, j'ai appris à explorer toutes sortes de 
                     technologies en lien avec le multimédia afin de développer mes propres compétences. Je suis fortement motivé pour rejoindre 
                     une équipe qui va me permettre de gagner de l'expérience dans le milieu de travail. Mes habiletés sont plus orientées vers le 
                     côté artistique. J'adore faire du design graphique, de la conception numérique et de la modélisation 3D. J'espère donc pouvoir démontrer mes 
                     compétences et valeurs acquises dans le milieu professionnel. Mes passe-temps sont le dessin, la photographie et les jeux vidéo.
                 </p>
+            </div>
             
+            <div id="competence">
                 <h1>Compétence</h1>
                     <p><b>Programmation</b></p>
                         <p>HTML/CSS, Javascript, C#, PHP</p>
                     <p><b>Création</b></p>
                         <p>Photoshop, Illustrator, XD, Premiere Pro, After effects, Audition, Unity, Maya</p>
             </div>
+            <div class="download-cv">
+                <div class="rectangle">
+                    <a href="../mon-portfolio/img/projets/Kristian_Chung_CV_FR.pdf" download>OBTENIR MON CV</a>
+                </div>
+                
+            </div>
         </div>
+
+        <!-- SECTION PROJET -->
 
         <div id="projets">
             <div id="carrousel">
                 <h1>Mes projets</h1>
                 <div id="jssor_1" >
-                        <!-- LOADING SCREEN -->
                         <div data-u="loading" class="jssorl-009-spin" >
                             <img src="img/svg/loading/static-svg/spin.svg" />
                         </div>
-            
-                        <!-- Images projets -->
+
                         <div id="slides" data-u="slides" >
-                            <div><img data-u="image" src="img/projets/chronoshift.jpg" /></div>
-                            <div><img data-u="image" src="img/projets/Chung_Kristian_tp2_01.jpg" /></div>
-                            <div><img data-u="image" src="img/projets/LeBoucanRevamp.jpg" /></div>
-                            <div><img data-u="image" src="img/manago4.jpg" /></div>
-                            <div><img data-u="image" src="img/manago5.jpg" /></div>
-                            <div><img data-u="image" src="img/manago6.jpg" /></div>
-                            <div><img data-u="image" src="img/manago7.jpg" /></div>
-                            <div><img data-u="image" src="img/manago8.jpg" /></div>
-                            <div><img data-u="image" src="img/manago9.jpg" /></div>
+                            <div><a href="https://www.behance.net/gallery/114471245/Game-design-Chronoshift"> <img data-u="image" src="img/projets/chronoshift.jpg"/></a></div>
+                            <div><a href="https://www.behance.net/gallery/114473541/Website-Technique-Intgration-Multimdia"><img data-u="image" src="img/projets/site_web_1.JPG" /></a></div>
+                            <div><a href="https://www.behance.net/gallery/114619225/Website-design-revamp-concept"><img data-u="image" src="img/projets/LeBoucanRevamp.jpg" /></a></div>
+                            <div><a href="https://www.behance.net/gallery/114623357/3D-modeling-Aircraft"><img data-u="image" src="img/projets/3D_model_1.jpg" /></a></div>
+                            <div><a href="https://www.behance.net/gallery/114472879/3D-modeling-bedroom"><img data-u="image" src="img/projets/TP1_scene_ordi_1.0001.png" /></a></div>
+                            <div><a href="https://www.behance.net/gallery/114473131/Trailer-Montreal-tour"><img data-u="image" src="img/projets/video_1.JPG" /></a></div>
+                            <div><a href="https://www.behance.net/gallery/114472807/movie-trailer-Laspect-du-visage"><img data-u="image" src="img/projets/video_2.JPG" /></a></div>
+                            <div><a href="https://www.behance.net/gallery/114471027/Illustration-claircognizance"><img data-u="image" src="img/projets/Clairgonizance.JPG" /></a></div>
+                            <div><a href="https://www.behance.net/gallery/114701825/Videography-Intro-to-a-movie-%28Hunger-Games%29"><img data-u="image" src="img/projets/video_AE_1.JPG" /></a></div>
                         </div>
 
-                        <!-- Bullet Navigator / Points -->
+                        <!-- POINT NAVIGATEUR CAROUSSEL -->
                         <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
                             <div data-u="prototype" class="i" style="width:16px;height:16px;">
                                 <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
@@ -97,7 +111,7 @@
                             </div>
                         </div>
 
-                        <!-- Arrow Navigator -->
+                        <!-- FLÈCHE NAVIGATEUR -->
                         <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
                             <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                                 <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
@@ -113,6 +127,7 @@
             </div>
             </div>
 
+        <!-- SECTION FOOTER -->
         <div id="footer">
             <ul>
                 <li>Linkedin - Kristian Chung</li>

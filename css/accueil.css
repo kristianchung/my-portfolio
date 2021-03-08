@@ -12,6 +12,84 @@
     padding-top: 25vh;
 }
 
+.accueil .titre h1{
+    margin-bottom: 0 ;
+}
+
+.accueil .titre h3{
+    margin-top: 0 ;
+}
+
+.ligne {
+    height: 6px;
+    width: 20rem;
+    animation: fadeIn100 0.75s 1.5s ease-out forwards;
+    background-color: white;
+    border-radius: 0.1rem;
+    display: block;
+    margin: 1rem auto 1.5rem 0;
+    opacity: 1;
+}
+
 .prenom{
     color: #df22a2;
+    transition: 1s;
 }
+
+.prenom:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#cercle{
+    position: relative;
+    float: left;
+    margin-left: -29vh;
+    margin-top: -45vh;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    line-height: 50px;
+    border-color: #df22a2;
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1;
+}
+
+#cercle2{
+    position: relative;
+    left: 10vh;
+    top: 10vh;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    line-height: 50px;
+    border-color: #df22a2;
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+  #cercle3{
+    position: relative;
+    left: 20vh;
+    top: -30vh;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    line-height: 50px;
+    border-color: #df22a2;
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
