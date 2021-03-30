@@ -24,7 +24,8 @@ img{
 }
 
 @media (max-width:620px) {
-/* --------------------FORMAT CELLULAIRE------------------- */
+
+/* ---------FORMAT CELLULAIRE------------ */
 body{
     width: 100%;
     height: 100%;
@@ -119,7 +120,7 @@ nav#nav{
 #imgProfil1, #imgProfil2{
     display: none;
 }
-/* --------------------DESCRIPTION------------------- */
+/* --------DESCRIPTION-------- */
 
 #description1 {
     background-color: #020611;
@@ -216,7 +217,7 @@ nav#nav{
 }
 
 
-/* --------------------GALLERIE------------------- */
+/* ---------GALLERIE----------- */
 div#projets{
     height: 45vh;
     background-color:#0d0b32;
@@ -238,7 +239,7 @@ div#carrousel {
     font-size: 0.8em;
 }
 
-/* ------------------ FOOTER ------------------------ */
+/* ---------- FOOTER ---------- */
 #footer{
     height: 50vh;
     color: white;
