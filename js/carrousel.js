@@ -3,7 +3,7 @@
 
             var jssor_1_options = {
               $AutoPlay: 1,
-              $SlideDuration: 1000,
+              $SlideDuration: 2000,
               $SlideEasing: $Jease$.$OutQuint,
               $ArrowNavigatorOptions: {
                 $Class: $JssorArrowNavigator$
